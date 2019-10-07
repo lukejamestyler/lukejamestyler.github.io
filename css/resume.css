@@ -43,9 +43,10 @@ h3 {
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 3.15rem;
   font-weight: 400;
 }
+
 
 .subheading {
   text-transform: uppercase;
@@ -94,59 +95,7 @@ p.lead {
 }
 
 @media (min-width: 992px) {
-  #sideNav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
-  }
-  #sideNav .navbar-brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav .navbar-collapse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }
+  
 }
 
 section.resume-section {
@@ -159,7 +108,7 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {  
   section.resume-section {
     min-height: 100vh;
   }
@@ -168,7 +117,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
@@ -176,7 +125,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: ##3873bd !important;
+  background-color: #3873bd !important;
 }
 
 .text-primary {
